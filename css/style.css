@@ -815,10 +815,10 @@ section.blog-small .container, section.blog .container {
     padding-bottom: 120px;
 }
 
-section .container, footer .container {
+/*section .container, footer .container {
     padding-top: 120px;
     padding-bottom: 120px;
-}
+*/}
 
 section.portfolio {
     padding: 120px 0 0;
