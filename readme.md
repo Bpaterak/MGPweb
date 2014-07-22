@@ -1,4 +1,8 @@
 <blockquote>
+(7/22/14)
+	-merged working files, Backend almost finished,
+	-all work to be done on "working"br
+
 
 <h1>*Working*</h1>
 -notes (7/22/14)
