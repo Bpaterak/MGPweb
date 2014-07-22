@@ -1,14 +1,19 @@
 <blockquote>
-(7/22/14)
-	-merged working files, Backend almost finished,
-	-all work to be done on "working"br
+<h1>Master Branch</h1>
 
+<h4><em>7/22/14</em></h4>
+<ul>
+	<li>merged working files</li>
+	<li> Backend almost finished</li>
+	<li> Working Br created</li>
 
-<h1>*Working*</h1>
--notes (7/22/14)
+</ul>
+
+<h4><em>notes (7/22/14)</em></h4>
+<ul>
 	
-	-Front Page Slider (3 Slides -seriously not serious-) *pig from NAPFA*
-	-
+	<li>Front Page Slider<em>(3 Slides -seriously not serious-)</em><strong>*pig from NAPFA*</strong></li>
+</ul>
 
-<h4><em>MGP Working File</em></h4>
+
 </blockquote>
