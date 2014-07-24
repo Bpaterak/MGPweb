@@ -26,6 +26,7 @@ jQuery(document).ready(function () {
 /*==========================*/
      
     jQuery("#navigation").sticky({topSpacing:0});
+    jQuery("#sub").sticky({topSpacing:10});
 
     
 /*==========================*/

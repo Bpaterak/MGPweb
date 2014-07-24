@@ -1,3 +1,9 @@
+#sub {
+	background-color: #f8f8f8;
+	margin-bottom:10px;
+	padding: 65px 0;
+}
+
 .content-section-goal {
 		background-color: #2b86ae;
 	opacity: 0.68;
@@ -18,7 +24,7 @@ outline: none;
 text-decoration: none;
 
 }
-/* funbox */
+/* funbox 1 */
 
 .fun-box1 {
 text-align: center;
@@ -44,6 +50,30 @@ margin-bottom: 0;
 	padding-right:5px;
 }
 
+/* funbox 2 */
+.fun-box2 {
+text-align: center;
+padding: 20px 20px;
+margin-top: 10px;
+background: rgba(43, 134, 174, 0.5);
+}
+
+.fun-box2 i {
+display: block;
+font-size: 40px;
+font-weight: 400;
+color: white;
+}
+.fun-box2 p {
+color: white;
+font-size: 12px;
+text-transform: uppercase;
+margin-bottom: 0;
+}
+.col-md-5 {
+	padding-left:5px;
+	padding-right:5px;
+}
 
 /* quotes */
 
