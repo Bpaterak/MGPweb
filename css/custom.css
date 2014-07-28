@@ -1,10 +1,20 @@
-#sub {
-	background-color: #f8f8f8;
-	margin-bottom:10px;
-	padding: 65px 0;
+.section-spacer {
+	background-color:  #e7e7e7;
+	width: 1px;
+	height:200px;
+	float: left;
+	margin-right: 25px;
+	margin-left:20px;
+	padding:0 0 0 0;
 }
 
-.content-section-goal {
+#sub {
+	background-color: white;
+	margin-bottom:40px;
+	padding: 10px 0;
+}
+
+.content-section-menu {
 		background-color: #2b86ae;
 	opacity: 0.68;
 	border-top: 1px solid #e7e7e7;
@@ -94,7 +104,7 @@ margin-bottom: 0;
 /* MGP */
 .mgp-header {
 	padding-top: 65px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
-	padding-bottom: 10px;
+	padding-bottom: 200px;
 	color: #f8f8f8;
 	background: url(../img/mgp/ipad.jpg) no-repeat center center;
 	background-size: cover;
