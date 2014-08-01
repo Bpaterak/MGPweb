@@ -597,12 +597,12 @@ ul.text-slide {
 
 .dropdown-menu > li > a {
     color: #566473 !important;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 600;
     padding: 10px 20px; 
     outline: none;
     text-decoration: none;
-    text-transform: uppercase;
+    
 
 }
 
@@ -1070,7 +1070,7 @@ div.content-box.big div.content-box-info p {
 }
 
 .fun-wrap {
-        background: url('../img/plx3.jpg') 50% 0 no-repeat fixed;
+        background: url('../img/intro-bg.jpg') 50% 0 no-repeat fixed;
 
   
 
