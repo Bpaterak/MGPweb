@@ -1,3 +1,70 @@
+/*=====buttons======*/
+.btn-learn {
+  color:#333;
+  background-color: white;
+  opacity: 0.8;
+
+}
+.btn-learn:hover  {
+  color:#333;
+  background-color: #80FF59;
+  opacity: 1;
+
+}
+.nav_learn {
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: 2px;
+	color:#80FF59;
+}
+.nav_learn:hover {
+	color:white;
+}
+
+.btn-find {
+  color: #333;
+  background-color: white;
+  opacity: 0.8;
+  }
+  .btn-find:hover {
+  color: #333;
+  background-color: #19A2FF;
+  opacity: 1;
+  }
+
+  .nav_find {
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: 2px;
+	color:#19A2FF;
+}
+.nav_find:hover {
+	color:white;
+}
+
+  .btn-train {
+  color: #333;
+  background-color: white;
+  opacity: 0.8;
+  }
+.btn-train:hover {
+  color: #333;
+  background-color: #8802FF;
+  opacity: 1;
+  }
+.nav_train {
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: 2px;
+	color:#8802FF;
+}
+
+.nav_train:hover{
+	color:white;
+}
 /*==================*
  *===== Slider =====*
  *==================*/

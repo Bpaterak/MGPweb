@@ -2038,41 +2038,7 @@ fieldset[disabled] .btn {
   background-color: #fff;
   border-color: #ccc;
 }
-.btn-learn {
-  color:#333;
-  background-color: #c5c6c4;
-  border-color: #ccc;
-  opacity: 0.8;
 
-}
-.btn-learn:hover  {
-  color:#333;
-  background-color: #c5c6c4;
-  border-color: #ccc;
-  opacity: 1;
-
-}
-
-.btn-sample {
-  color: #333;
-  background-color: #f9b24b;
-  opacity: 0.8;
-  }
-  .btn-sample:hover {
-  color: #333;
-  background-color: #f9b24b;
-  opacity: 1;
-  }
-  .btn-demo {
-  color: #333;
-  background-color: #9ed632;
-  opacity: 0.8;
-  }
-.btn-demo:hover {
-  color: #333;
-  background-color: #9ed632;
-  opacity: 1;
-  }
 .btn-default:hover,
 .btn-default:focus,
 .btn-default:active,

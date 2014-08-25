@@ -474,7 +474,7 @@ ul.text-slide {
     font-family: inherit;
     font-size: inherit;
     color: inherit;
-    background: none;
+    /*background: none;*/
     cursor: pointer;
     padding: 20px 70px;
     display: inline-block;
