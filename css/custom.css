@@ -31,7 +31,7 @@ body {
  }
 
 
-/*=====buttons======*/
+/*=====buttons======
 .btn-learn {
   color:#333;
   background-color: white;
@@ -98,6 +98,58 @@ body {
 .nav_train:hover{
 	color:white;
 }
+*/
+
+.btn:hover {
+	opacity:1;
+	color:white;
+	font-size: 15px;
+}
+.btn-learn  {
+  color:#333;
+  background-color: #61FF3F;
+  opacity: 0.8;
+
+}
+.nav_learn {
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: 2px;
+	color:white;
+
+}
+
+
+  .btn-find {
+  color: #333;
+  background-color: #19A2FF;
+  opacity: 0.8;
+  }
+
+  .nav_find {
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: 2px;
+	color:white;
+}
+
+
+.btn-train {
+  color: #333;
+  background-color: #8802FF;
+  opacity: 0.8;
+  }
+.nav_train {
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: 2px;
+	color:white;
+}
+
+
 /*==================*
  *===== Slider =====*
  *==================*/
