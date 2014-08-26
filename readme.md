@@ -1,6 +1,10 @@
 <blockquote>
 <h1>Style Branch</h1>
 <h4><em>8/26/14</em><h4>
+<p> added MGP icons, Finished homepage for now, laying out MGP/MGL/MGS</p>
+
+
+
 <<<<<<< HEAD
 <p>"working" branch deleted/recreated as "styling"</p>
 =======
