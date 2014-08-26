@@ -1,7 +1,10 @@
 <blockquote>
-<h1>Master Branch</h1>
+<h1>Style Branch</h1>
 <h4><em>8/26/14</em><h4>
+<<<<<<< HEAD
 <p>"working" branch deleted/recreated as "styling"</p>
+=======
+>>>>>>> styling
 
 <p>Latest styling has been done on master *ugh* creating a new working branch</p>
 
