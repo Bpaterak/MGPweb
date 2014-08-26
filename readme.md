@@ -1,5 +1,8 @@
 <blockquote>
 <h1>Master Branch</h1>
+<h4><em>8/26/14</em><h4>
+<p>Latest styling has been done on master *ugh* creating a new working branch</p>
+
 
 <<<<<<< HEAD
 <h4><em>7/22/14</em></h4>
