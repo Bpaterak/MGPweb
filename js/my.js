@@ -1,3 +1,6 @@
+(document).ready(function(){
+
+
 $(window).load(function() {
   $('.flexslider').flexslider({
     animation: "slide",
@@ -6,3 +9,7 @@ $(window).load(function() {
 
   });
 });
+
+
+
+});(thats_all_folks)
