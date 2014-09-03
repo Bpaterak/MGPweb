@@ -1,15 +1,11 @@
-(document).ready(function(){
+$(document).ready(function(){
+  
+ 
+ 	$('.shidden').hide();
 
-
-$(window).load(function() {
-  $('.flexslider').flexslider({
-    animation: "slide",
-    slideshowSpeed: 9000, 
-    keyboard: false,   
-
-  });
+$('#bg2').on('click',function(){
+	$('#mbg').removeClass().addClass('sum');
 });
 
 
-
-});(thats_all_folks)
+});

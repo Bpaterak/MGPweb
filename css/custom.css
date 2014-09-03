@@ -36,14 +36,18 @@ body {
 .btn:hover {
 	opacity:1;
 	color:white;
-	font-size: 15px;
+	
 }
 
+.subb:hover {
+	opacity:1;
+	color:white;
+}
 /*= HOME =*/
 
 .btn-learn  {
   color:#333;
-  background-color: #61FF3F;
+  background-color: #5AFF47;
   opacity: 0.8;
 
 }
@@ -55,7 +59,13 @@ body {
 	color:white;
 
 }
-
+  .nav_learn2 {
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: 400;
+	letter-spacing: 2px;
+	color:white;
+}
 
   .btn-find {
   color: #333;
@@ -70,7 +80,13 @@ body {
 	letter-spacing: 2px;
 	color:white;
 }
-
+  .nav_find2 {
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: 400;
+	letter-spacing: 2px;
+	color:white;
+}
 
 .btn-train {
   color: #333;
@@ -84,7 +100,13 @@ body {
 	letter-spacing: 2px;
 	color:white;
 }
-
+.nav_train2 {
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: 400;
+	letter-spacing: 2px;
+	color:white;
+}
 /*= MGP =*/
 
 .btn-feature {
@@ -94,8 +116,8 @@ body {
 
 }
 .btn-feature:hover  {
-  color:#333;
-  background-color: #61FF3F;
+  color:#61FF3F;
+  border-bottom:3px solid #61FF3F;
   opacity: 1;
 
 }
@@ -106,9 +128,7 @@ body {
 	letter-spacing: 2px;
 	color:#61FF3F;
 }
-.nav_feature:hover {
-	color:white;
-}
+
 
 .btn-best {
   color: #333;
@@ -116,8 +136,8 @@ body {
   opacity: 0.9;
   }
   .btn-best:hover {
-  color: #333;
-  background-color: #19A2FF;
+  color: #19A2FF;
+  border-bottom:3px solid #19A2FF;
   opacity: 1;
   }
 
@@ -128,9 +148,7 @@ body {
 	letter-spacing: 2px;
 	color:#19A2FF;
 }
-.nav_best:hover {
-	color:white;
-}
+
 
   .btn-test {
   color: #333;
@@ -138,8 +156,8 @@ body {
   opacity: 0.9;
   }
 .btn-test:hover {
-  color: #333;
-  background-color: #8802FF;
+  color:  #8802FF;
+  border-bottom:3px solid #8802FF;
   opacity: 1;
   }
 .nav_test {
@@ -150,9 +168,7 @@ body {
 	color:#8802FF;
 }
 
-.nav_test:hover{
-	color:white;
-}
+
 
   .btn-pricing {
   color: #333;
@@ -160,8 +176,8 @@ body {
   opacity: 0.9;
   }
 .btn-pricing:hover {
-  color: #333;
-  background-color: #8802FF;
+  color: #8802FF;
+   border-bottom:3px solid #8802FF;
   opacity: 1;
   }
 .nav_pricing {
@@ -175,6 +191,72 @@ body {
 .nav_pricing:hover{
 	color:white;
 }
+
+/*=====backgrounds=====*/
+
+.product_section {
+	width:auto;
+	height:auto;
+	background-color:white;
+	padding: 200px 0;
+}
+
+.summary {
+	background-size:;
+	width:auto;
+	height:450px;
+	z-index:1;
+	margin-left:30px;
+	position: absolute;
+	margin-top: -27px;
+}
+.overview {
+	display:inline;
+}
+
+#mbg {
+	margin-top:27px;
+	position:inherit;
+	margin-left: 123px;
+	width:600px;
+	height:371px;
+	background-size:contain;
+	background-repeat: none;
+}
+
+.meter {
+
+	background-image:url('../img/mgp/bgs/meterbg.png');
+}
+.sum {
+	background-image: url('../img/mgp/bgs/sumbg.png');
+}
+/*=== Awards ===*/
+.award {
+	list-style: none;
+}
+
+.award li {
+	/*display:inline-block;
+	*/padding:35px 20px;
+	font-size: 18px;
+	font-weight: 600;
+}
+ .circle {
+ 	height:20px;
+ 	width:auto;
+ }
+
+.years7 {
+	height:100px;
+	width:auto;
+}
+
+.number1 {
+	height:100px;
+	width:auto;
+}
+
 /*==================*
  *===== Slider =====*
  *==================*/
@@ -216,6 +298,7 @@ body {
 }
 
 #sub {
+	z-index:6;
 	background-color: white;
 	margin-bottom:40px;
 	padding: 10px 0;
