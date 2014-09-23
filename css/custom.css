@@ -1,3 +1,6 @@
+body {
+	background-color: white;
+}
 .mgp_grey {
 	content: url('../img/icons/mgp_grey.svg');
 }
@@ -204,7 +207,7 @@ body {
 	width:auto;
 	height:auto;
 	background-color:white;
-	padding: 200px 0;
+	padding: 50px 0;
 }
 
 .summary {
@@ -318,7 +321,7 @@ body {
 
 #sub {
 	z-index:6;
-	background-color: white;
+	background-color: rgba(255,255,255,0);
 	margin-bottom:40px;
 	padding: 10px 0;
 }
@@ -412,6 +415,21 @@ margin-bottom: 0;
 }
 
 /* MGP */
+.prohead {
+	padding-top: 150px;
+	background-color: white;
+}
+.prohead img{
+	width:125px;
+	height:auto;
+
+}
+
+/*.prohead hr {
+	margin-top: -1px;
+	width:200px;
+	border-top:1px solid #C3C3C3;
+}*/
 .mgp-header {
 	padding-top: 65px; 
 	padding-bottom: 200px;
