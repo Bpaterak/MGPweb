@@ -193,6 +193,12 @@ body {
 }
 
 /*=====backgrounds=====*/
+.reporting_section {
+	width:auto;
+	height:auto;
+	background-color:white;
+	padding: 200px 0;
+}
 
 .product_section {
 	width:auto;
@@ -228,6 +234,15 @@ body {
 	color:#428bca;
 }
 /*== bgs ==*/
+
+.award li:hover {
+	cursor: pointer;
+
+}
+
+.calc {
+	background-image:url('../img/mgp/bgs/colcalcbg.png');
+}
 .meter {
 
 	background-image:url('../img/mgp/bgs/meterbg.png');
