@@ -1,5 +1,6 @@
 $(document).ready(function(){
   
+  
  
 $('#bg1').on('hover',function(){
 	//mousehover
