@@ -1,0 +1,21 @@
+.mgl-header {
+	padding-top: 65px; 
+	/*padding-bottom: 200px;*/
+	color: white;
+	background: url(../img/mgl/purple_bg.png) no-repeat center center;
+	background-size: cover;
+	text-align: center;
+	width:100%;
+	height: 90%
+}
+.livehead {
+padding-top: 231px;
+position: inherit;
+width: 100%;
+height: 100%;
+}
+.livehead img{
+	width:400px;
+	height:auto;
+	opacity: 0.9;
+}
