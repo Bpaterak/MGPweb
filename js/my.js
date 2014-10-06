@@ -20,35 +20,35 @@ $('#bg1').on('click',function(){
 
 $('#bg2').on('click',function(){
 	$('.award li').removeClass('featactive');
-	$('#mbg').removeClass().addClass('meter');
+	$('#mbg').removeClass().addClass('healthc');
 	$('#bg2 i').removeClass('fa-square').addClass('fa-check-square');
 	$('#bg2').addClass('featactive');
 });
 
 $('#bg3').on('click',function(){
 	$('.award li').removeClass('featactive');
-	$('#mbg').removeClass().addClass('meter');
+	$('#mbg').removeClass().addClass('playz');
 	$('#bg3 i').removeClass('fa-square').addClass('fa-check-square');
 	$('#bg3').addClass('featactive');
 });
 
 $('#bg4').on('click',function(){
 	$('.award li').removeClass('featactive');
-	$('#mbg').removeClass().addClass('meter');
+	$('#mbg').removeClass().addClass('afraid');
 	$('#bg4 i').removeClass('fa-square').addClass('fa-check-square');
 	$('#bg4').addClass('featactive');
 });
 
 $('#bg5').on('click',function(){
 	$('.award li').removeClass('featactive');
-	$('#mbg').removeClass().addClass('meter');
+	$('#mbg').removeClass().addClass('smartcal');
 	$('#bg5 i').removeClass('fa-square').addClass('fa-check-square');
 	$('#bg5').addClass('featactive');
 });
 
 $('#bg6').on('click',function(){
 	$('.award li').removeClass('featactive');
-	$('#mbg').removeClass().addClass('meter');
+	$('#mbg').removeClass().addClass('supers');
 	$('#bg6 i').removeClass('fa-square').addClass('fa-check-square');
 	$('#bg6').addClass('featactive');
 });
@@ -62,7 +62,7 @@ $('#bg7').on('click',function(){
 
 $('#bg8').on('click',function(){
 	$('.award li').removeClass('featactive');
-	$('#mbg').removeClass().addClass('meter');
+	$('#mbg').removeClass().addClass('yodlee');
 	$('#bg8 i').removeClass('fa-square').addClass('fa-check-square');
 	$('#bg8').addClass('featactive');
 });

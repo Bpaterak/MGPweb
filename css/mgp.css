@@ -1,0 +1,136 @@
+/*============*
+ *== Header ==*
+ *============*/
+ .prohead {
+padding-top: 231px;
+position: inherit;
+width: 100%;
+height: 100%;
+}
+.prohead img{
+	width:400px;
+	height:auto;
+	opacity: 0.9;
+}
+
+/*.prohead hr {
+	margin-top: -1px;
+	width:200px;
+	border-top:1px solid #C3C3C3;
+}*/
+.mgp-header {
+	padding-top: 65px; 
+	/*padding-bottom: 200px;*/
+	color: white;
+	background: url(../img/mgp/green_bg.png) no-repeat center center;
+	background-size: cover;
+	text-align: center;
+	width:100%;
+	height: 90%
+}
+
+
+/*==============*
+ *== Features ==*
+ *==============*/
+
+
+ /*== bgs ==*/
+
+.award li:hover {
+	cursor: pointer;
+
+}
+.meter {
+
+	background-image:url('../img/mgp/bgs/meterbg.png');
+}
+/*== Row 1 ==*/
+
+.calc {
+	background-image:url('../img/mgp/bgs/colcalcbg.png');
+}
+.healthc {
+	background-image: url('../img/mgp/bgs/healthc.png');
+}
+.playz {
+	background-image: url('../img/mgp/bgs/playz.png')
+}
+.afraid {
+	background-image: url('../img/mgp/bgs/afraid.png');
+}
+
+/*== Row 2 ==*/
+
+.smartcal {
+	background-image: url('../img/mgp/bgs/smartcalc.png');
+}
+.supers {
+	background-image: url('../img/mgp/bgs/supers.png');
+}
+.sum {
+	background-image: url('../img/mgp/bgs/sumbg.png');
+
+}
+
+.yodlee {
+	background-image: url('../img/mgp/bgs/yodlee.png')
+}
+
+/*=================*
+ *=== Reporting ===*
+ *=================*/	
+
+#reporting {
+	
+}
+
+.reporting_section {
+	width:auto;
+	height:auto;
+	background-color:white;
+	padding-top: 200px;
+}
+
+object{
+	width:500px;
+	height:300px;
+	border: 2px solid black;
+}
+/*== Left ==*/
+
+.reportleft{
+	float:left;
+}
+
+.reportright {
+	float:right;
+	}
+
+/*==================*
+ *== Integrations ==*
+ *==================*/
+
+ #integration {
+	
+}
+
+.integration_section {
+	width:auto;
+	height:auto;
+	background-color:white;
+	padding: 200px 0;
+}
+
+/*=============*
+ *== Pricing ==*
+ *=============*/
+
+ .pricing_section {
+	width:auto;
+	height:auto;
+	background-color:white;
+	padding-top: 180px;
+}
+
+

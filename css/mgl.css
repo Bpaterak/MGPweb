@@ -19,3 +19,37 @@ height: 100%;
 	height:auto;
 	opacity: 0.9;
 }
+/*===========*
+ *== Testi ==*
+ *===========*/
+
+ .testi-section {
+	background-color: #f8f8f8;
+	padding:200px 0px;
+	}
+
+/*==========*
+ *== team ==*
+ *==========*/
+
+ #integration {
+	
+}
+
+.team_section {
+	width:auto;
+	height:auto;
+	background-color:white;
+	padding: 200px 0;
+}
+
+/*===========*
+ *== sched ==*
+ *===========*/
+
+ .sched_section {
+	width:auto;
+	height:auto;
+	background-color:white;
+	padding-top: 180px;
+}
