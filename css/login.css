@@ -3,4 +3,18 @@
 	margin-bottom:20%;
 	height:100%;
 	width:100%;
+	float:right;
+}
+
+.mg-login {
+color: #fff;
+background-color: #5cb85c;
+border-color: #4cae4c;
+}
+.mgp_logo {
+	/*background-image: url('../img/icons/v_mgs_tm.svg');
+	background-repeat: no-repeat;
+	*/width:400px;
+	height:auto;
+	float:left;
 }
