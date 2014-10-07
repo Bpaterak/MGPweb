@@ -6,10 +6,10 @@
 	background-size: cover;
 	text-align: center;
 	width:100%;
-	height: 90%
+	height: 50%
 }
 .solutionshead {
-padding-top: 200px;
+padding-top: 5%;
 position: inherit;
 width: 100%;
 height: 100%;
@@ -19,3 +19,57 @@ height: 100%;
 	width:auto;
 	opacity: 0.9;
 }
+
+
+/*=============*
+ *== Buttons ==*
+ *=============*/
+
+/*== LAB ==*/
+
+ .btn-lab {
+  color: #333;
+  background-color: white;
+  opacity: 1;
+  }
+  .btn-lab:hover {
+  color: #19A2FF;
+  border-bottom:3px solid #19A2FF;
+  opacity: 1;
+  }
+  
+/*== Brand ==*/
+  .btn-brand {
+  color: #333;
+  background-color: white;
+  opacity: 1;
+  }
+  .btn-brand:hover {
+  color: #19A2FF;
+  border-bottom:3px solid #19A2FF;
+  opacity: 1;
+  }
+
+  /*== FACTS ==*/
+  .btn-facts {
+  color: #333;
+  background-color: white;
+  opacity: 1;
+  }
+  .btn-facts:hover {
+  color: #19A2FF;
+  border-bottom:3px solid #19A2FF;
+  opacity: 1;
+  }
+
+  /*== CONTACT ==*/
+  .btn-contact {
+  color: #333;
+  background-color: white;
+  opacity: 1;
+  }
+  .btn-contact:hover {
+  color: #19A2FF;
+  border-bottom:3px solid #19A2FF;
+  opacity: 1;
+  }

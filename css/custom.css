@@ -1,6 +1,16 @@
 body {
 	background-color: white;
 }
+html,
+body {
+        height:100%;
+        width:100%;
+        color: #566473;
+        background:white;
+        font-family: "Open Sans",Helvetica,Arial,sans-serif;
+        font-size: 14px;
+        line-height: 24px;
+}
 .mgp_grey {
 	content: url('../img/icons/mgp_grey.svg');
 }
@@ -282,8 +292,29 @@ body {
  /*=================*
   *===== Other =====*
   *=================*/
+  .fun-wrap {
+        background: url('../img/mgs/blue_bg.png') 50% 0 no-repeat fixed;
 
+  }
+  .texture-layer, .bg-overlay {
+    background: url(../img/texture_layer.png) repeat;
+}
+.content-section-a {
+	background-color: white;
+	padding: 65px 0;
+}
+.testi-section {
+	padding-top:40px;
+	padding-bottom:70px;
+	background-color: #f8f8f8;
 
+}
+.product-section-a {
+	background-color: white;
+	padding:0px 0px;
+	margin-top: 65px;
+	margin-bottom:70px;
+}
 .section-spacer {
 	background-color:  #e7e7e7;
 	width: 1px;

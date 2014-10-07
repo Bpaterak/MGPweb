@@ -1,3 +1,57 @@
+/*=============*
+ *== Buttons ==*
+ *=============*/
+
+/*== FEATURES ==*/
+
+ .btn-feat {
+  color: #333;
+  background-color: white;
+  opacity: 1;
+  }
+  .btn-feat:hover {
+  color: #19A2FF;
+  border-bottom:3px solid #83EE1B;
+  opacity: 1;
+  }
+  
+/*== REPORTING ==*/
+  .btn-report {
+  color: #333;
+  background-color: white;
+  opacity: 1;
+  }
+  .btn-report:hover {
+  color: #19A2FF;
+  border-bottom:3px solid #83EE1B;
+  opacity: 1;
+  }
+
+  /*== INTEGRATIONS ==*/
+  .btn-integ {
+  color: #333;
+  background-color: white;
+  opacity: 1;
+  }
+  .btn-integ:hover {
+  color: #19A2FF;
+  border-bottom:3px solid #83EE1B;
+  opacity: 1;
+  }
+
+  /*== PRICING ==*/
+  .btn-price {
+  color: #333;
+  background-color: white;
+  opacity: 1;
+  }
+  .btn-price:hover {
+  color: #19A2FF;
+  border-bottom:3px solid #83EE1B;
+  opacity: 1;
+  }
+
+
 .folio-btn {
 list-style: none;
 background: #fff;
@@ -29,7 +83,7 @@ margin-bottom: 20px;
  *== Header ==*
  *============*/
  .prohead {
-padding-top: 231px;
+padding-top: 8%;
 position: inherit;
 width: 100%;
 height: 100%;
@@ -53,7 +107,7 @@ height: 100%;
 	background-size: cover;
 	text-align: center;
 	width:100%;
-	height: 90%
+	height: 50%
 }
 
 

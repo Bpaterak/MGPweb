@@ -1,0 +1,204 @@
+.light {
+background: #fff;
+position: relative;
+}
+
+.footer-container {
+padding: 100px 0 60px;
+width: 1180px;
+margin: auto;
+overflow: auto;
+color: #a8a8a8;
+font-family: 'Open Sans', sans-serif;
+font-size: 17px;
+font-weight: 400;
+}
+
+.title.one {
+color: #404141;
+font-size: 37px;
+letter-spacing: 5px;
+padding: 120px 0 30px;
+text-transform: uppercase;
+}
+
+.no-top {
+padding-top: 0 !important;
+}
+.title {
+font-weight: 300;
+text-align: center;
+font-family: 'Open Sans', sans-serif;
+}
+
+.title.two {
+color: #757575;
+font-size: 17px;
+font-family: 'Open Sans', sans-serif;
+width: 680px;
+margin: 50px auto;
+}
+.f-bottom {
+margin-bottom: 115px !important;
+}
+
+.foot-third {
+float: left;
+width: 365px;
+padding: 0 0 0 28px;
+line-height: 25px;
+}
+.dontHide {
+-webkit-transition: all 1s ease-in-out;
+-moz-transition: all 1s ease-in-out;
+-o-transition: all 1s ease-in-out;
+transition: all 1s ease-in-out;
+}
+
+.bay {
+overflow: hidden;
+background-color: transparent;
+}
+form {
+margin: 0;
+}
+user agent stylesheetform {
+display: block;
+margin-top: 0em;
+}
+.form-horizontal .control-group {
+margin-bottom: 10px;
+}
+.peThemeContactForm .controls .span9 {
+width: 97%!important;
+border: none;
+outline: none;
+padding: 11px;
+font-weight: 300;
+font-size: 13px;
+color: #a8a8a8;
+text-transform: uppercase;
+font-family: 'Montserrat', sans-serif;
+background: #fbfbfb;
+}
+.alert-success {
+color: #468847;
+background-color: #dff0d8;
+border-color: #d6e9c6;
+}
+.alert {
+padding: 8px 35px 8px 14px;
+margin-bottom: 20px;
+color: #c09853;
+text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+background-color: #fcf8e3;
+border: 1px solid #fbeed5;
+}
+.formSent, .formError {
+display: none;
+}
+.f-title-one {
+font-weight: 400;
+font-family: 'Montserrat', sans-serif;
+font-size: 15px;
+color: #d7d9da;
+text-transform: uppercase;
+margin-bottom: 5px;
+}
+.f-title-two {
+font-weight: 300;
+font-family: 'Open Sans', sans-serif;
+font-size: 28px;
+color: #434343;
+margin-bottom: 45px;
+}
+.f-data {
+color: #3f3f3f;
+font-size: 15px;
+font-family: 'Open Sans', sans-serif;
+font-weight: 600;
+line-height: 30px;
+}
+.f-data img {
+margin-right: 10px;
+}
+
+.contour-btn {
+width: 100%;
+font-size: 14px;
+line-height: 26px;
+font-weight: 300;
+display: inline-block;
+color: #fff;
+text-transform: uppercase;
+font-family: 'Montserrat', sans-serif;
+padding: 3px 30px;
+border-radius: 3px;
+background: #4cddf3;
+border: none;
+-webkit-transition: all .2s ease-out;
+-moz-transition: all .2s ease-out;
+-o-transition: all .2s ease-out;
+transition: all .2s ease-out;
+}
+
+.scrollup {
+z-index: 500;
+width: 50px;
+height: 50px;
+border-radius: 50%;
+opacity: 0.8;
+position: fixed;
+bottom: 50px;
+right: 40px;
+display: none;
+background: /*url('img/scroll-up.png') no-repeat*/ #4ad8ed;
+color: #fff;
+line-height: 55px;
+text-decoration: none;
+font-family: 'Open Sans', sans-serif;
+font-size: 25px;
+text-transform: uppercase;
+text-align: center;
+font-weight: 300;
+}
+.socialFooter {
+position: relative;
+background: #fff;
+width: 100%;
+height: 201px;
+}
+
+.social-icons {
+width: 215px;
+margin: 0px auto 35px;
+padding-top: 50px;
+}
+.clear {
+clear: both;
+}
+.socialFooter .copy {
+text-align: center;
+font-family: 'Open Sans', sans-serif;
+color: #aaa;
+font-size: 13px;
+margin-top: 35px;
+}
+.socialFooter .social-icons .social .face {
+background-position: right bottom;
+}
+.socialFooter .social-icons .social .twitt {
+background-position: left bottom;
+}
+.socialFooter .social-icons .social .linkd {
+background-position: -51px bottom;
+}
+
+.socialFooter .social-icons .social div {
+width: 51px;
+height: 51px;
+overflow: hidden;
+background: url("../img/social-footer.png");
+float: left;
+margin: 0 10px;
+}
