@@ -45,7 +45,15 @@ body {
  .flex-control-nav {
  	padding-left: 0px;
  }
+.intro-message {
+	width:100%;
+	height: auto;
+	position: inherit;
+	padding-top: 10%;
+	padding-bottom: 0;
 
+
+}
 
 /*=====buttons======*/
 
