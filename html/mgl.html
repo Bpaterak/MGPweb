@@ -94,14 +94,35 @@
     </nav>
 </div>
 
+<div id="myCarousel" class="carousel slide">
+        <!-- Indicators
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>-->
 
-  <div class="mgl-header">
-
-
-       <div class="livehead">
-  <img src="../img/mgl/white_live_tm.svg" alt=""/>
- <!-- <hr> -->
-
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <div class="fill" style="background-image:url('../img/mgl/bgs/nyc.jpg');z-index:99;"></div>
+                <div class="fill" style="background-image:url('../img/mgl/purple_bg2.png');z-index:999;opacity:0.8;">
+                    <h1></h1>
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('../img/mgl/bgs/boston.jpg');z-index:99;"></div>
+               <div class="fill" style="background-image:url('../img/mgl/purple_bg2.png');z-index:999;opacity:0.8;">
+                    <h1></h1>
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('../img/mgl/bgs/sanfran.jpg');z-index:99;"></div>
+                <div class="fill" style="background-image:url('../img/mgl/purple_bg2.png');z-index:999;opacity:0.8;">
+                    <h1></h1>
+                </div>
+            </div>
+        </div>
 
     </div>
     <div id="sub"class="navbar navbar-custom" data-offset="75">
@@ -125,48 +146,12 @@
     
    </div>
 </div>
-  <div class="my-divider"></div>
- <div   id='overview'   class="product_section" >
-                    <div class="row">
-
-
-                    
-                  
-                    <div class="overview ">
-                    <div class="col-md-6 ">
-                    <div class="mac">
-                    <img class ="summary" src="../img/mgp/mac.png"/>
-                    <div id="mbg" class="meter"></div>
-                    
-                   </div>
-                    </div>
-
-                    <div class="col-md-3" style="margin-right">
-                    <ul class="award">
-                     
-                     <li id="bg1" ><i class="fa fa-square"></i>  College Calculator</li> 
-                      
-                      <li id="bg2" ><i class="fa fa-square"></i>  Health Care SMART Goal</li>
-                      <li id="bg3" ><i class="fa fa-square"></i>  Play Zone&#174;</li>
-                       
-                       <li id="bg4"> <i class="fa fa-square"></i>  What Are You Afraid Of?</li> 
-                            </ul>
-                            </div>
-                            <div class="col-md-3">
-                            <ul class="award">
-                                <li id="bg5" ><i class="fa fa-square"></i>  Smart Calc</a></li>
-                                <li id="bg6"><i class="fa fa-square"></i>  Goal Builder</li>    
-                                <li id="bg7"><i class="fa fa-square"></i>  Results Summary</li>
-                                <li id="bg8"><i class="fa fa-square"></i>  Yodlee&#174;</li>  
-                                </ul>
-                  </div>
-                </div>
-
-
-          </div>
+   <div class="fun-wrap" style="height:350px;">
+                        <div class="texture-layer">
+                              <div class="container">>
 
             <div class="testi-section text-center" >
-<div class="my-divider"></div>  
+  
         <div class="container">
 
             
@@ -199,7 +184,7 @@
                 </div>
                
             </div>
-
+</div>
        </div>
         <div class="my-divider"></div> 
          <div id="reporting" class="team_section">
@@ -456,16 +441,13 @@
   });
 });
    </script>
+
+
    <script>
-     jQuery('.fun-wrap .fun-box').each(function () {
-        jQuery(this).fappear(function() {
-            jQuery('.fun').countTo();
-        }); 
+    $('.carousel').carousel({
+        interval: 7000 //changes the speed
     });
-
-  </script>
-
-
+    </script>
  
 </body>
 
