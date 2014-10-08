@@ -38,6 +38,9 @@ body {
 	color:#858585;
 }
 
+.container {
+	width:80%;
+}
 /*=== Slider ====*/
  .flex-control-nav {
  	padding-left: 0px;
@@ -422,10 +425,21 @@ margin-bottom: 0;
 }
 
 /* MGP */
-
+.leftm {
+	margin-left: -60px;
+}
+.homemac {
+	margin-top: 20px;
+	width:130%;
+	height: auto;
+}
 /*=========*
  *===SUB===*
  *=========*/
+
+ .subb {
+ 	margin-right: 40px;
+ }
 #sub a {
 	color:#858585;
 }
@@ -475,3 +489,52 @@ margin-bottom: 0;
 		width: 100%;
 	}
 }
+
+.graph {
+	margin-top: 10px;
+
+}
+
+/*============*
+ *== GRAPHS ==*
+ *============*/
+ .graph-wrap {
+        background:white;
+        vertical-align: center;
+        width:100%;
+        height: auto;
+        padding:10px 0;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        border-bottom:1px solid #D3D4D8;
+
+
+  }
+ /* graphbox 1 */
+
+.graph-box {
+	width:322px;
+	height:187px;
+	text-align: center;
+	/*padding: 50px 20px;
+	*/margin-top: 10px;
+
+}
+
+.graph-box img {
+	padding:1px 1px;
+	height:auto;
+	width:auto;
+
+}
+.graph-box p {
+color: #BBBCC1;
+font-size: 12px;
+text-transform: uppercase;
+margin-bottom: 20px;
+}
+.col-md-5 {
+	padding-left:5px;
+	padding-right:5px;
+}
+
