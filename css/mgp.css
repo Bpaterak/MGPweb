@@ -11,22 +11,59 @@
 .mgpicons {
 	padding-top: 5%;
 	position:inherit; 
-	width: 100%;
-	height:auto ;
-	font-weight: 300;
+	width: 80%;
+	height:auto;
+	
 }
 
 .mgpicons ul {
 	list-style: none;
 }
 
-.mgpicons li {
+.mgpicons li,img{
 	display: inline;
-	margin:0 7%;
+	margin:0 ;
 }
 
-.mgpicons .fa-lg {
-	font-size: 5em;
+
+.goali {
+	width:7%;
+	height:auto;
+
+}
+
+.goali img {
+	width:100%;
+	height:auto;
+}
+
+.cloudi {
+	width:7%;
+	height:auto;
+
+}
+.cloudi img {
+	width:100%;
+	height:auto;
+}
+.sharei {
+	width:7%;
+	height:auto;
+
+}
+.sharei img {
+	width:100%;
+	height:auto;
+}
+
+.fasti {
+	width:7%;
+	height:auto;
+
+}
+.fasti img {
+	width:100%;
+	height:auto;
 }
 /*==============*
  *== CAROUSEL ==*
