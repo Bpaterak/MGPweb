@@ -57,6 +57,9 @@ background-color: white;
 opacity: 0.6;
 }
 
+#sub {
+	text-align: center;
+}
 /*=============*
  *== Buttons ==*
  *=============*/
