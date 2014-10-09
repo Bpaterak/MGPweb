@@ -1,3 +1,22 @@
+/*===========*
+ *== LOGIN ==*
+ *===========*/
+
+.login {
+   margin-top:10%;
+   margin-bottom:20%;
+    
+ }
+    
+.mg-login {
+   color: #fff;
+   background-color: #5cb85c;
+}
+
+/*============*
+ *== HEADER ==*
+ *============*/
+ 
 .mgl-header {
 	margin-top: 65px; 
 	/*padding-bottom: 200px;*/

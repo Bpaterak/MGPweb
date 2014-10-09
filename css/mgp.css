@@ -1,3 +1,18 @@
+/*===========*
+ *== LOGIN ==*
+ *===========*/
+
+.login {
+   margin-top:10%;
+   margin-bottom:20%;
+    
+ }
+    
+.mg-login {
+   color: #fff;
+   background-color: #5cb85c;
+}
+
 /*=============*
  *== LANDING ==*
  *=============*/
@@ -9,25 +24,32 @@
  }
 
 .mgpicons {
-	padding-top: 5%;
+	padding-top: 1%;
 	position:inherit; 
-	width: 80%;
+	width: 100%;
 	height:auto;
 	
 }
 
-.mgpicons ul {
-	list-style: none;
+.mgpicons h3 {
+	margin-bottom:20px;
 }
 
-.mgpicons li,img{
+.mgpicons ul {
+	list-style: none;
+	width: 100%;
+	height: auto;
+	-webkit-padding-start: 0px;
+}
+
+.mgpicons li {
 	display: inline;
-	margin:0 ;
+	margin:10px 3%;
 }
 
 
 .goali {
-	width:7%;
+	width:6%;
 	height:auto;
 
 }
@@ -37,8 +59,11 @@
 	height:auto;
 }
 
+.goali img:hover {
+	background-image:;
+}
 .cloudi {
-	width:7%;
+	width:6%;
 	height:auto;
 
 }
@@ -47,7 +72,7 @@
 	height:auto;
 }
 .sharei {
-	width:7%;
+	width:6%;
 	height:auto;
 
 }
@@ -57,7 +82,7 @@
 }
 
 .fasti {
-	width:7%;
+	width:6%;
 	height:auto;
 
 }
@@ -244,9 +269,22 @@ height: 100%;
 /*==============*
  *== Features ==*
  *==============*/
+ .badge-section {
+ 	margin-top: 30px;
+ 	text-align:center;
+ 	display:inline;
+ 	width:100%;
+ 	height: auto;
+ }
+
+.badge-section img {
+	width:100px;
+	height: auto;
 
 
+}
  /*== bgs ==*/
+
 
 .award li:hover {
 	cursor: pointer;
