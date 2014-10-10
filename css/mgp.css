@@ -22,7 +22,28 @@
  	background-color: white;
  	
  }
+.feature_landing {
+	
+}
 
+.text-landing {
+	width:100%;
+	height:auto;
+	text-align:justify;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+.text-landing h4 {
+	text-align:left;
+}
+
+.text-landing .pgr {
+	margin-right:8%;
+	position: inherit;
+}
+
+/*=======*/
 .mgpicons {
 	padding-top: 1%;
 	position:inherit; 
@@ -386,7 +407,7 @@ object{
  *== GRAPHS ==*
  *============*/
 #canvas-holder {
-	width:60%;
+	width:100%;
 }
 
 #chart-area	{
@@ -397,6 +418,7 @@ object{
 
  .graph-wrap {
         background:white;
+        text-align: center;
         vertical-align: center;
         width:100%;
         height: auto;

@@ -11,6 +11,10 @@ body {
         font-size: 14px;
         line-height: 24px;
 }
+
+footer {
+	padding-top: 3px;
+}
 .mgp_grey {
 	content: url('../img/icons/mgp_grey.svg');
 }
@@ -68,68 +72,101 @@ body {
 	color:white;
 }
 /*= HOME =*/
+/* PRO */
 
 .btn-learn  {
-  color:#333;
-  background-color: #5AFF47;
+
+  background-color: #5DFF2A;
   opacity: 0.8;
 
 }
 .nav_learn {
 	text-transform: uppercase;
 	font-size: 14px;
-	font-weight: 400;
+	font-weight: 700;
 	letter-spacing: 2px;
 	color:white;
 
 }
+
   .nav_learn2 {
 	text-transform: uppercase;
 	font-size: 12px;
-	font-weight: 400;
+	font-weight: 700;
+	letter-spacing: 2px;
+	color:white;
+}
+
+.nav_learn2:hover  {
+ 	background-color: #5DFF2A;
+  opacity: 1;
+  font-size: 16px;
+  color:white;
+  letter-spacing: 4px;
+   text-decoration: none;
+
+}
+/* MY */
+  .nav_find {
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 700;
 	letter-spacing: 2px;
 	color:white;
 }
 
   .btn-find {
-  color: #333;
+  color: white;
   background-color: #19A2FF;
   opacity: 0.8;
   }
 
-  .nav_find {
-	text-transform: uppercase;
-	font-size: 14px;
-	font-weight: 400;
-	letter-spacing: 2px;
-	color:white;
-}
+
   .nav_find2 {
 	text-transform: uppercase;
 	font-size: 12px;
-	font-weight: 400;
+	font-weight: 700;
+	letter-spacing: 2px;
+	color:white;
+}
+.nav_find2:hover {
+  background-color: #19A2FF;
+  opacity: 1;
+  font-size: 16px;
+  color:white;
+  letter-spacing: 4px;
+  text-decoration: none;
+}
+/* LIVE */
+.nav_train {
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 700;
 	letter-spacing: 2px;
 	color:white;
 }
 
 .btn-train {
-  color: #333;
+  color: white;
   background-color: #8802FF;
   opacity: 0.8;
   }
-.nav_train {
-	text-transform: uppercase;
-	font-size: 14px;
-	font-weight: 400;
-	letter-spacing: 2px;
-	color:white;
-}
+
 .nav_train2 {
 	text-transform: uppercase;
 	font-size: 12px;
-	font-weight: 400;
+	font-weight: 700;
 	letter-spacing: 2px;
 	color:white;
+}
+
+.nav_train2:hover {
+  background-color: #8802FF;
+  opacity: 1;
+  font-size: 16px;
+  color:white;
+  letter-spacing: 4px;
+   text-decoration: none;
 }
 /*= MGP =*/
 
@@ -303,21 +340,18 @@ body {
  /*=================*
   *===== Other =====*
   *=================*/
-  .fun-wrap {
-        background: url('../img/mgs/blue_bg.png') 50% 0 no-repeat fixed;
 
-  }
   .texture-layer, .bg-overlay {
     background: url(../img/texture_layer.png) repeat;
 }
 .content-section-a {
 	background-color: white;
-	padding: 65px 0;
+	padding: 89px 0;
 }
 .testi-section {
-	padding-top:40px;
+	padding-top:5px;
 	padding-bottom:70px;
-	background-color: #f8f8f8;
+	background-color: white;
 
 }
 .product-section-a {
@@ -366,51 +400,54 @@ text-decoration: none;
 }
 /* funbox 1 */
 
-.fun-box1 {
+  .fun-wrap {
+        /*background: url('../img/mgs/blue_bg.png') 50% 0 no-repeat fixed;*/
+        background-color: white;
+        height:auto;
+        width:100%;
+        background-size: cover;
+  }
 
-text-align: center;
-padding: 50px 20px;
-margin-top: 10px;
-background: rgba(43, 134, 174, 0.5);
-}
-
-.fun-box1 i {
-display: block;
-font-size: 40px;
-font-weight: 400;
-color: white;
-}
-.fun-box1 p {
-color: white;
-font-size: 12px;
-text-transform: uppercase;
-margin-bottom: 0;
-}
-.col-md-5 {
-	padding-left:5px;
-	padding-right:5px;
+.fun-box {
+    text-align: center;
+    padding: 45px 15px;
+    margin: 20px;
+    background: rgba(238, 238, 238, 0.5);
 }
 
-/* funbox 2 */
-.fun-box2 {
-text-align: center;
-padding: 20px 20px;
-margin-top: 10px;
-background: rgba(43, 134, 174, 0.5);
+.fun-box i {
+    display: block;
+    font-size: 40px;
+    font-weight: 500;
+    color: white;
 }
 
-.fun-box2 i {
-display: block;
-font-size: 40px;
-font-weight: 400;
-color: white;
+.fun-box p {
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom: 0;
 }
-.fun-box2 p {
-color: white;
-font-size: 12px;
-text-transform: uppercase;
-margin-bottom: 0;
+.fun-box .bigfun {
+    color: white;
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-top: 14px;
+    margin-bottom:3px;
 }
+.fun {
+	color:white;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 70px;
+    text-shadow:0px 0px 0px #444;
+}
+.suff {
+	color:white;
+	font-size: 16px;
+	font-weight: 500;
+}
+
 .col-md-5 {
 	padding-left:5px;
 	padding-right:5px;
@@ -499,7 +536,7 @@ margin-bottom: 0;
 }
 
 .graph {
-	margin-top: 10px;
+	margin: 10px;
 
 }
 

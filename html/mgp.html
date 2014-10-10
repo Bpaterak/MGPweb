@@ -144,72 +144,60 @@
 <div class="graph text-center">
      <div class="graph-wrap" >
                         
-                              <div class="container">
-                                     <!-- Title row
-                                    <div class="row">
-                                          <div class="col-md-12 big-title light wow bounceIn">
-                                                <h2>Some Fun Facts</h2>
-                                          </div>
-                                    </div>
-                                   Title row -->
+                            <div class="container">
 
                                     <div class="row">
-                                          <div class="col-md-3 wow fadeInLeft">
+                                          <div class="col-md-2 wow fadeInLeft">
                                                 <div id="canvas-holder">
                                                    <canvas id="chart-area" width="150" height="150"/>
                                                 </div>
                                         
                                           </div>
 
-                                          <div class="col-md-3 wow fadeInLeft">
-                                                <div class="graph-box">
-                                                <p class="text-center"></p>
-                                                      <img src="../img/graphs/pie.png" alt="">
-                                                      
+                                          <div class="col-md-2 wow fadeInLeft">
+                                                <div id="canvas-holder">
+                                                   <canvas id="chart-area2" width="150" height="150"/>
                                                 </div>
+                                        
                                           </div>
 
-                                          <div class="col-md-3 wow fadeInLeft">
-                                                <div class="graph-box">
-                                                <p class="text-center"></p>
-                                                      <img src="../img/graphs/v_bar.png" alt="">
-                                                      
+                                          <div class="col-md-2 wow fadeInLeft">
+                                                <div id="canvas-holder">
+                                                   <canvas id="chart-area3" width="150" height="150"/>
                                                 </div>
+                                        
                                           </div>
 
-                                          <div class="col-md-3 wow fadeInLeft">
-                                                <div class="graph-box">
-                                                <p class="text-center"></p>
-                                                      <img src="../img/graphs/y_n.png" alt="">
-                                                      
-                                                </div></div></div>
+                                         <div class="col-md-2 wow fadeInLeft">
+                                                <div id="canvas-holder">
+                                                   <canvas id="chart-area" width="150" height="150"/>
+                                                </div>
+                                        
+                                          </div></div></div>
                                           </div>
                                           </div>
-  <!--<div class="mgpicons text-center">
-  <h3>Why MoneyGuidePro?</h3>
-  <br>
-      <ul>
-        <li>
-          <img src="../img/icons/mgp/goal.svg"  class="goali">
-        </li>
-        
-        <li>
-          <img src="../img/icons/mgp/cloud.svg"  class="cloudi">
-        </li>
-        
-        <li>
-          <img src="../img/icons/mgp/integrated.svg" class="sharei">
-        </li>
-        
-        <li>
-          <img src="../img/icons/mgp/fast.svg" class="fasti">
-        </li>
-      </ul>
+<!--<div class="mgpicons text-center">
+<div class="text-landing">
+  <div class="container">
+     
+      <div class="col-md-5 pgr">
+      <h4>Why should you consider MoneyGuidePro?</h4>
+        <p class="" style="font-weight:300;">For the same reason it has been advisors’ financial planning software of choice for seven straight years,
+according to Financial Planning Magazine’s 2013 Tech Survey. Advisors tell us that it is not simply the ease of use that has kept us at the top—it is because we have led the industry in innovation with unique client engagement. Simply put, we make financial plans more meaningful to the client. This ultimately translates to stronger relationships with your clients.</p>
+      </div>
+      
+      <div class="col-md-5 pgr">
+      <h4>#1 Financial Planning Software</h4>
+        <p class="" style="font-weight:300;">In June 2014, InvestmentNews, surveyed over 1,100 advisors on their technology usage and satisfaction. MoneyGuidePro is proud to be ranked the #1 Financial Planning Software by surveyed advisors. Each year we continue to innovate, invest and improve our offerings. We take pride in challenging the status quo, leveraging the latest technology, and incorporating feedback from our valued subscribers. As the industry leader, MoneyGuidePro continues to focus on providing advisors with sophisticated yet understandable plans that engage and motivate clients to make better financial choices.</p>
+      </div>
     
-    </div>-->
+  
   </div>
+</div>-->
 
 
+
+</div>
  <div   id='features'   class="product_section" >
                     <div class="row">
 
@@ -530,13 +518,13 @@
         {
           value: 85,
           color:"#BCD646",
-          highlight: "#A3CD39",
+          highlight: "#BCD646",
           label: "Prepared by Firm"
         },
         {
           value: 15,
           color: "#93529F",
-          highlight: "#643F98",
+          highlight: "#93529F",
           label: "Prepared Elseware"
         }
       
@@ -544,13 +532,23 @@
 
       window.onload = function(){
         var ctx = document.getElementById("chart-area").getContext("2d");
-        window.myPie = new Chart(ctx).Pie(pieData);
+        window.myPie = new Chart(ctx).Pie(pieData, {
+              animationEasing : "easeOutCubic",
+              tooltipFontSize: 10,
+              percentageInnerCutout : 0,
+              animationSteps: 70,
+              tooltipFillColor: "RGBA(133, 133, 133, 0.8)",
+              
+                      
+
+        });
+          
       };
 
 
 
   </script>
- 
+
 </body>
 
 </html>
