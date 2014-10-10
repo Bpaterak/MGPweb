@@ -27,12 +27,13 @@
     <link rel="stylesheet" type="text/css" href="../css/select.css">
     <link rel="stylesheet" type="text/css" href="../css/mgp.css">
 
+
     <!-- Favcon -->
      <link rel="shortcut icon" href="../img/fav/favicon.ico">
      <!-- js -->
      <script type="text/javascript" src="../js/jquery.min.js"></script>
      <script type="text/javascript" src="../js/my.js"></script>
-
+     <script type="text/javascript" src="../js/chart.js"></script>
   
 
 </head>
@@ -154,11 +155,10 @@
 
                                     <div class="row">
                                           <div class="col-md-3 wow fadeInLeft">
-                                                <div class="graph-box">
-                                                      <p class="text-center"></p>
-                                                      <img src="../img/graphs/h_bar.png" alt="">
-                                                      
+                                                <div id="canvas-holder">
+                                                   <canvas id="chart-area" width="150" height="150"/>
                                                 </div>
+                                        
                                           </div>
 
                                           <div class="col-md-3 wow fadeInLeft">
@@ -524,7 +524,32 @@
         interval: 7000 //changes the speed
     })
     </script>
+<script>
 
+    var pieData = [
+        {
+          value: 85,
+          color:"#BCD646",
+          highlight: "#A3CD39",
+          label: "Prepared by Firm"
+        },
+        {
+          value: 15,
+          color: "#93529F",
+          highlight: "#643F98",
+          label: "Prepared Elseware"
+        }
+      
+      ];
+
+      window.onload = function(){
+        var ctx = document.getElementById("chart-area").getContext("2d");
+        window.myPie = new Chart(ctx).Pie(pieData);
+      };
+
+
+
+  </script>
  
 </body>
 

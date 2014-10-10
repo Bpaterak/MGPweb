@@ -385,6 +385,16 @@ object{
 /*============*
  *== GRAPHS ==*
  *============*/
+#canvas-holder {
+	width:60%;
+}
+
+#chart-area	{
+	width:100px;
+	height:100px;
+}
+
+
  .graph-wrap {
         background:white;
         vertical-align: center;
