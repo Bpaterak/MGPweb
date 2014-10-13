@@ -1,0 +1,24 @@
+{
+  "name": "package.json",
+  "version": "0.1.0",
+  "description": "MGPweb",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Bpaterak/MGPweb.git"
+  },
+  "author": "Brandon Paterak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bpaterak/MGPweb/issues"
+  },
+  "homepage": "https://github.com/Bpaterak/MGPweb",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-serve": "^0.1.6"
+  }
+}

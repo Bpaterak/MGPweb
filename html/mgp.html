@@ -20,7 +20,7 @@
     <!-- Add custom CSS here -->
     <link href="../css/landing-page.css" rel="stylesheet">
     <link href="../css/animate.css" rel="stylesheet" media="screen">
-    <link href="../css/color/blue.css" rel="stylesheet" class="colors">
+    
     <link href="../css/style.css" rel="stylesheet">
     <link href="../css/custom.css" rel="stylesheet" media="screen">
     <link href="../css/jquery.bxslider.css" rel="stylesheet">
@@ -31,9 +31,26 @@
     <!-- Favcon -->
      <link rel="shortcut icon" href="../img/fav/favicon.ico">
      <!-- js -->
+     <!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script>
+  $(document).ready(function() {
+    // This is more like it!
+  });
+</script>-->
+<script src="../js/jquery-1.11.1.min.js"></script>
+<script src="../js/jquery.smoothwheel.js"></script>
+
+    <script>
+
+        $(document).ready(function(){
+            $("#wrap").smoothWheel()
+        });
+
+    </script>
      <script type="text/javascript" src="../js/jquery.min.js"></script>
      <script type="text/javascript" src="../js/my.js"></script>
      <script type="text/javascript" src="../js/chart.js"></script>
+     <script type="text/javascript" src="../js/charts/chart.data.js"></script>
   
 
 </head>
@@ -147,30 +164,30 @@
                             <div class="container">
 
                                     <div class="row">
-                                          <div class="col-md-2 wow fadeInLeft">
+                                          <div class="col-md-3 wow zoomin">
                                                 <div id="canvas-holder">
                                                    <canvas id="chart-area" width="150" height="150"/>
                                                 </div>
                                         
                                           </div>
 
-                                          <div class="col-md-2 wow fadeInLeft">
-                                                <div id="canvas-holder">
+                                          <div class="col-md-3 wow zoomin">
+                                               <div id="canvas-holder">
                                                    <canvas id="chart-area2" width="150" height="150"/>
                                                 </div>
-                                        
-                                          </div>
+                                                      
+                                                </div>
+                                      
 
-                                          <div class="col-md-2 wow fadeInLeft">
-                                                <div id="canvas-holder">
+                                          <div class="col-md-3 wow zoomin">
+                                                   <div id="canvas-holder">
                                                    <canvas id="chart-area3" width="150" height="150"/>
                                                 </div>
-                                        
                                           </div>
 
-                                         <div class="col-md-2 wow fadeInLeft">
-                                                <div id="canvas-holder">
-                                                   <canvas id="chart-area" width="150" height="150"/>
+                                          <div class="col-md-3 wow zoomin">
+                                                  <div id="canvas-holder">
+                                                   <canvas id="chart-area4" width="150" height="150"/>
                                                 </div>
                                         
                                           </div></div></div>
@@ -232,15 +249,21 @@ according to Financial Planning Magazine’s 2013 Tech Survey. Advisors tell us 
                                 <li id="bg8"><i class="fa fa-square"></i>  Yodlee&#174;</li>  
                                 </ul>
                   </div>
-                </div>
+               
 
 
-            </div>
-            <!--<div class="shidden">
- <h2  class="text-center">fubar</h2>
- <p>Why? MGP's unique ability to make sophisticated, goal-based planning fast and easy. We believe every investor needs and deserves a high-quality financial plan and that every advisor should have the means to provide it. Because MGP is smart, easy-to-use and adaptable, you can now provide a profitable planning experience for every client. For college, retirement, estate and Social Security planning, asset allocation and insurance needs analysis, tech integration and account aggregation, your choice is simple: MoneyGuidePro</p>
+            </div></div>
+       
+         <div class="secondtext">
+         <div class="container">
+              <div class="row">
+ 
+
+ <div id="inhere"></div>
       </div>
-    </div>-->
+      </div>
+      </div>
+    
 
   </li></li></ul></div>
 <div id="reporting" class="reporting_section text-center">
@@ -497,6 +520,7 @@ according to Financial Planning Magazine’s 2013 Tech Survey. Advisors tell us 
     <script src="../js/wow.js"></script>
     <script src="../js/switcher.js"></script>
     <script src="../js/custom.js"></script>
+    
    
 
    <script>
@@ -509,45 +533,12 @@ according to Financial Planning Magazine’s 2013 Tech Survey. Advisors tell us 
   </script>
   <script>
     $('.carousel').carousel({
-        interval: 7000 //changes the speed
+        interval: 5000 //changes the speed
     })
     </script>
-<script>
-
-    var pieData = [
-        {
-          value: 85,
-          color:"#BCD646",
-          highlight: "#BCD646",
-          label: "Prepared by Firm"
-        },
-        {
-          value: 15,
-          color: "#93529F",
-          highlight: "#93529F",
-          label: "Prepared Elseware"
-        }
-      
-      ];
-
-      window.onload = function(){
-        var ctx = document.getElementById("chart-area").getContext("2d");
-        window.myPie = new Chart(ctx).Pie(pieData, {
-              animationEasing : "easeOutCubic",
-              tooltipFontSize: 10,
-              percentageInnerCutout : 0,
-              animationSteps: 70,
-              tooltipFillColor: "RGBA(133, 133, 133, 0.8)",
-              
-                      
-
-        });
-          
-      };
 
 
 
-  </script>
 
 </body>
 
