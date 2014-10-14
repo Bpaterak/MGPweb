@@ -43,6 +43,13 @@
 	position: inherit;
 }
 
+
+/*=================*
+ *== SECOND TEXT ==*
+ *=================*/
+.secondtext p{
+	font-weight: 400;
+}
 /*=======*/
 .mgpicons {
 	padding-top: 1%;
@@ -310,7 +317,10 @@ height: 100%;
 
 
 }
- /*== bgs ==*/
+
+/*=========*
+ *== BGS ==*
+ *=========*/
 
 
 .award li:hover {
@@ -353,6 +363,18 @@ height: 100%;
 	background-image: url('../img/mgp/bgs/yodlee.png')
 }
 
+
+/*=====================*
+ *== FEAT ICON STYLE ==*
+ *=====================*/
+
+.grico {
+ 	color:#BDD747;
+ }
+
+.featactive {
+	color:#BDD747;
+}
 /*=================*
  *=== Reporting ===*
  *=================*/	
